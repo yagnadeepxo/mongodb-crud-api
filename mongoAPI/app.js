@@ -2,7 +2,7 @@ const express = require('express')
 const mongoose = require('mongoose')
 
 const app = express()
-const url = "mongodb+srv://yagnadeep:hI3uCcy4igh3qAfC@demo-cluster.wf8giki.mongodb.net/?retryWrites=true&w=majority"
+const url = "mongodb+srv://<username>:<password>@demo-cluster.wf8giki.mongodb.net/?retryWrites=true&w=majority"
 app.listen(3000,()=>{console.log('server up')})
 
 mongoose.connect(url) 
